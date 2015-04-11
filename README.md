@@ -2,29 +2,19 @@
 
 ## Description
 
-Add a short description of your app.
-
-## Screenshots
-
-Add some spiffy screenshots of your app here.
+This app was created to connect to current and former students and staff at Flatiron School via social media.
 
 ## Background
 
-Why did you want to make this app? What was your development process
-like?
+The app originated with the idea of mass following other students on Twitter at the Flatiron School. It has evolved to my playground for implementing various development strategies.
 
 ## Features
 
-Bullet point some of the key features of your app here.
-
-## Usage
-
-How do users use your app?
-
-## Development/Contribution
-
-Explain how people can contribute to your app. How should they write tests?
-Any things in particular you'd like to see in pull requests?
+1. Authentication
+  * Oauth with Twitter
+2. Scrape student/staff information
+3. Student/staff view page
+4. Auto follow users
 
 ## Future
 
@@ -33,7 +23,7 @@ actually are implementing. No pie-in-the-sky-never-gonna-happen stuff.
 
 ## Author
 
-Link to your blog, twitter, etc!
+[Seiji Naganuma](https://twitter.com/S2K10)
 
 ## License
 
