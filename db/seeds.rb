@@ -1,2 +1,1 @@
-
-"http://ruby007.students.flatironschool.com/"
+CohortScraper.new("Ruby-007", "http://ruby007.students.flatironschool.com/")

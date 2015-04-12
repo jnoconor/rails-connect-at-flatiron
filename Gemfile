@@ -31,6 +31,7 @@ group :test, :development do
   gem 'thin'
   gem 'spring'
   gem 'faker'
+  gem 'awesome_print'
 end
 
 group :production do
