@@ -103,6 +103,15 @@ div.content {
   font-weight: bold;
 }
 
+.cohort-container {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+#title {
+  margin-bottom: 20px;
+}
+
 /*****************************/
 
 @font-face {

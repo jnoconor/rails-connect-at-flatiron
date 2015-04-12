@@ -25,7 +25,11 @@ class CohortScraper
 
   def save_member_info
     get_member_links.each do |page_link|
-      data = Nokogiri::HTML(open(page_link))
+      begin
+        data = Nokogiri::HTML(open(page_link))
+      rescue OpenURI::HTTPError
+        next
+      end
       Student.create! do |student|
         student.full_name = name(data)
         student.twitter = twitter(data)
