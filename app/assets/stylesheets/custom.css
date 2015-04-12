@@ -49,10 +49,9 @@ img.show-profile-img {
   background-color: #FCFCFC
 }
 
-body {
-  padding: 70px 0;
-}
-
+a,
+a :link,
+a :visited,
 a .glyphicon,
 a .glyphicon :link,
 a .glyphicon :visited,
@@ -99,7 +98,10 @@ div.content {
   transition-duration: 1s;
 }
 
-
+.green {
+  color: green;
+  font-weight: bold;
+}
 
 /*****************************/
 

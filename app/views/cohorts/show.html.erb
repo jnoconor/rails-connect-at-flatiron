@@ -1,6 +1,5 @@
 <h1 id="title"><%= @cohort.name %> Roster</h1>
 
-
   <table class="table table-striped">
     <thead>
       <tr>
@@ -12,13 +11,13 @@
       </tr>
     </thead>
     <tbody>
-    <% @cohort.students.each do |student| %>
+    <% @students.each do |student| %>
         <tr>
           <td></td>
           <td><%= link_to "#{student.full_name}", cohort_student_path(@cohort, student) %></td>
           <td><%= "#{student.twitter_handle}" %></td>
           <td><%= delete_link(student) %></td>
-          <td class="green">Followed!</td>
+          <%= follow_status(student, flash[:new_friends], @friends) %>
         </tr>
 
     <% end %>
@@ -29,5 +28,6 @@
 <div class="left-align">
   <%= link_to "< Back", root_path, :class => "btn btn-info" %>
   <%= link_to "Add New Student (+)", new_cohort_student_path(@cohort), :class => "btn btn-info" %>
+  <%= link_to "Follow People!", cohort_twitter_follow_path(@cohort), :class => "btn btn-success" %>
 </div>
 

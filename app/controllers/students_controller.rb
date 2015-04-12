@@ -17,15 +17,14 @@ class StudentsController < ApplicationController
   end
 
   def show
-
   end
 
   def edit
-
   end
 
   def update
-
+    @student.update(student_params)
+    redirect_to cohort_student_path(@cohort, @student)
   end
 
   def destroy

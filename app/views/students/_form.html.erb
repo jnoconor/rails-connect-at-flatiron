@@ -3,39 +3,39 @@
     <legend><%= student_name %></legend>
       <div class="form-group">
         <%= f.label :full_name, :class => 'col-md-2' %>
-        <%= f.text_field :full_name, :class => 'col-md-10' %>
+        <%= f.text_field :full_name, :class => 'col-md-10', :placeholder => "Gimme yo sexy name!" %>
       </div>
       <div class="form-group">
-        <%= f.label :twitter, :class => 'col-md-2' %>
-        <%= f.text_field :twitter, :class => 'col-md-10', :placeholder => "Twitter URL" %>
+        <%= f.label :twitter, "Twitter URL", :class => 'col-md-2' %>
+        <%= f.text_field :twitter, :class => 'col-md-10', :placeholder => "Let me tweet at ya!" %>
       </div>
       <div class="form-group">
-        <%= f.label :linkedin, :class => 'col-md-2' %>
-        <%= f.text_field :linkedin, :class => 'col-md-10', :placeholder => "LinkedIn URL" %>
+        <%= f.label :linkedin, "LinkedIn URL", :class => 'col-md-2' %>
+        <%= f.text_field :linkedin, :class => 'col-md-10', :placeholder => "Can we make a connection?" %>
       </div>
       <div class="form-group">
-        <%= f.label :github, :class => 'col-md-2' %>
-        <%= f.text_field :github, :class => 'col-md-10', :placeholder => "GitHub URL" %>
+        <%= f.label :github, "GitHub URL", :class => 'col-md-2' %>
+        <%= f.text_field :github, :class => 'col-md-10', :placeholder => "Let me see yo projects!" %>
       </div>
       <div class="form-group">
         <%= f.label :quote, :class => 'col-md-2' %>
-        <%= f.text_field :quote, :class => 'col-md-10' %>
+        <%= f.text_field :quote, :class => 'col-md-10', :placeholder => "Confucius say man who abuse computer get bad bytes." %>
       </div>
       <div class="form-group">
         <%= f.label :bio, :class => 'col-md-2' %>
-        <%= f.text_area :bio, :class => 'col-md-10', :rows => 5 %>
+        <%= f.text_area :bio, :class => 'col-md-10', :rows => 5, :placeholder => "You did what when?!" %>
       </div>
       <div class="form-group">
         <%= f.label :work_title, "Work Title", :class => 'col-md-2' %>
-        <%= f.text_field :work_title, :class => 'col-md-10' %>
+        <%= f.text_field :work_title, :class => 'col-md-10', :placeholder => "Let's be professionals here..." %>
       </div>
       <div class="form-group">
         <%= f.label :education, :class => 'col-md-2' %>
-        <%= f.text_field :education, :class => 'col-md-10' %>
+        <%= f.text_field :education, :class => 'col-md-10', :placeholder => "Oh you went to Hogwarts too?" %>
       </div>
       <div class="form-group">
         <%= f.label :profile_image, "Image URL", :class => 'col-md-2' %>
-        <%= f.text_field :profile_image, :class => 'col-md-10' %>
+        <%= f.text_field :profile_image, :class => 'col-md-10', :placeholder => "Jeeeeah look at that smile! " %>
       </div>
       <div class="form-group">
         <span class="col-md-offset-2 col-md-10">

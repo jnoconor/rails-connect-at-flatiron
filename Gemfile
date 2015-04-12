@@ -16,6 +16,7 @@ gem 'figaro'
 gem 'nokogiri'
 gem 'omniauth'
 gem 'omniauth-twitter'
+gem 'twitter'
 
 group :test, :development do
   gem 'rspec-rails'
