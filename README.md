@@ -18,8 +18,7 @@ The app originated with the idea of mass following other students on Twitter at 
 
 ## Future
 
-What features are you currently working on? Only mention things that you
-actually are implementing. No pie-in-the-sky-never-gonna-happen stuff.
+Next feature will be to allow users to follow on GitHub.
 
 ## Author
 
