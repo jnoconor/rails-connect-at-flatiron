@@ -17,6 +17,7 @@ gem 'nokogiri'
 gem 'omniauth'
 gem 'omniauth-twitter'
 gem 'twitter'
+gem 'octokit', '~> 3.0'
 
 group :test, :development do
   gem 'rspec-rails'
